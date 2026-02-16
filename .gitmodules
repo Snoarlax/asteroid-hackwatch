@@ -1,0 +1,3 @@
+[submodule "asteroid-hack"]
+	path = asteroid-hack
+	url = git@github.com:Snoarlax/asteroid-hack.git

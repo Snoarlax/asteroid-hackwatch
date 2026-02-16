@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>ScriptsPage.qml</file>
-        <file>KeyboardPage.qml</file>
-        <file>OutputPage.qml</file>
-        <file>KeyboardOutputPage.qml</file>
-    </qresource>
-</RCC>

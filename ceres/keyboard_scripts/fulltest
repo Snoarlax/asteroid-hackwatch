@@ -1,0 +1,68 @@
+
+, World!
+enter
+This is a test of the USB keyboard interface.
+enter
+enter
+Testing special characters: !@#$%^&*()
+enter
+Testing numbers: 1234567890
+enter
+enter
+ctrl+alt+t
+sleep 2
+enter
+whoami
+enter
+pwd
+enter
+ls -la
+enter
+echo "USB Keyboard Works!"
+enter
+date
+enter
+enter
+Testing function keys...
+f1
+f2
+f12
+enter
+Testing navigation keys...
+home
+end
+pageup
+pagedown
+up
+up
+down
+left
+right
+enter
+Testing modifier combinations...
+ctrl+c
+ctrl+shift+t
+alt+tab
+enter
+Typing some code:
+enter
+#!/bin/bash
+enter
+for i in 1 2 3; do
+enter
+tab
+echo "Number: $i"
+enter
+done
+enter
+enter
+backspace
+backspace
+backspace
+delete
+enter
+Testing escape key...
+escape
+enter
+All done!
+enter

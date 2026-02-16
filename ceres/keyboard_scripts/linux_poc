@@ -1,0 +1,58 @@
+leftmeta
+terminal
+delay 1
+enter
+delay 1
+
+echo "=== System Enumeration ===" > /tmp/watchdemonstrate
+enter
+delay 100ms
+
+echo "Hostname: $(hostname)" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+echo "Current User: $(whoami)" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+echo "User ID: $(id)" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+echo "Kernel: $(uname -a)" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+echo "Network Interfaces:" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+ip addr >> /tmp/watchdemonstrate 2>&1
+enter
+delay 100ms
+
+echo "Listening Ports:" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+ss -tulpn >> /tmp/watchdemonstrate 2>&1
+enter
+delay 100ms
+
+echo "Running Processes:" >> /tmp/watchdemonstrate
+enter
+delay 100ms
+
+ps aux >> /tmp/watchdemonstrate 2>&1
+enter
+delay 100ms
+
+# Display completion message
+echo "Enumeration complete. Results in /tmp/watchdemonstrate"
+enter
+delay 100ms
+
+# Show the file
+cat /tmp/watchdemonstrate
+enter
